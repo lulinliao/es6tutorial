@@ -294,7 +294,7 @@ import 'abc/123';
 如果模块名包含路径，那么`import`命令会按照路径去寻找这个名字的脚本文件。
 
 ```javascript
-import 'file:///etc/config/app.json';
+import 'file://etc/config/app.json';
 import './foo';
 import './foo?search';
 import '../bar';
